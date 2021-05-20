@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- _Project Link_
-- _About my Project_
-- _Screenshots_
+- [_Project Link_](#project-link)
+- [_About my Project_](#about-my-project)
+- [_Screenshots_](#screenshots)
 
 ## Project Link
 
