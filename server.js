@@ -1,11 +1,11 @@
 const express = require("express");
-const apiRoutes = require("./routes/apiRoutes");
-const htmlRoutes = require("./routes/htmlRoutes");
+const { htmlRoutes } = require("./routes/indexRoutes");
 
-const PORT = 3000;
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-const server = express();
+app.use("/", htmlRoutes);
 
-server.listen(PORT, () => {
-  console.log(`Server listening on: http://localhost:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`App listening on: http://localhost:${PORT}`);
 });
