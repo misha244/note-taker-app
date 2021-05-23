@@ -1,4 +1,4 @@
-const getStaticFilePath = require("../utils/getStaticFile");
+const getStaticFilePath = require("../util/getStaticFile");
 
 const renderIndexPage = (req, res) => {
   const filePath = getStaticFilePath("index");
