@@ -4,6 +4,6 @@ const { renderIndexPage, renderNotesPage } = require("../controllers/html");
 const router = Router();
 
 router.get("/notes", renderNotesPage);
-router.get("*", renderIndexPage);
+router.get("/", renderIndexPage);
 
 module.exports = router;
