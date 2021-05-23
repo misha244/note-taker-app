@@ -1,12 +1,12 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text",
+    "title": "Test note",
+    "text": "This is a test note; not to be confused with a real note",
     "id": "3aaaa8b1-c208-4b42-85d6-1ea35416394b"
   },
   {
     "title": "Yada Yada Yada",
-    "text": "These pretzels are making me thirsty",
+    "text": "These pretzels are making me thirsty!",
     "id": "edecd8d1-9616-459a-ba8d-33a5b5833e6d"
   }
 ]

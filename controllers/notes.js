@@ -1,3 +1,4 @@
+const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 const getFromDb = require("../util/getFromDb");
 const writeToDb = require("../util/writeToDb");
