@@ -1,12 +1,14 @@
-const path = require("path");
+const getStaticFilePath = require("../utils/getStaticFile");
 
 const renderIndexPage = (req, res) => {
-  const filePath = path.join(__dirname, "../public/index.html");
+  const filePath = getStaticFilePath("index");
+
   res.sendFiles(filePath);
 };
 
 const renderNotesPage = (req, res) => {
-  const filePath = path.join(__dirname, "../public/notes.html");
+  const filePath = getStaticFilePath("notes");
+
   res.sendFiles(filePath);
 };
 

@@ -1,9 +1,15 @@
+const uuid = require('uuid');
+const getFromDb = require("../utils/getFromDb");
+const writeToDb = require("../utils/writeToDb");
+
 const getNotes = (req, res) => {
-  res.json({ message: "hello" });
+  const notes = getFromDb();
+
+  res.json(notes);
 };
 
 const saveNote = (req, res) => {
-  res.json({ message: "hello" });
+  const note = 
 };
 
 module.exports = {
