@@ -2,8 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const cors = require("cors");
 
-const htmlRouter = require("./routes/htmlRoutes");
-const apiRouter = require("./routes/apiRoutes");
+const { apiRouter, htmlRouter } = require("./routes/indexRoutes");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
