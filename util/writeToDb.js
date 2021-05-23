@@ -4,7 +4,7 @@ const path = require("path");
 const writeToDb = (data) => {
   try {
     const filePath = path.join(__dirname, "../db/db.json");
-    fs.writeFileSync(filePath, data);
+    fs.writeFileSync(filePath, JSON.stringify(data));
   } catch (err) {
     console.log(err);
   }
