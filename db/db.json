@@ -1,12 +1,1 @@
-[
-  {
-    "title": "Test note",
-    "text": "This is a test note; not to be confused with a real note",
-    "id": "3aaaa8b1-c208-4b42-85d6-1ea35416394b"
-  },
-  {
-    "title": "Yada Yada Yada",
-    "text": "These pretzels are making me thirsty!",
-    "id": "edecd8d1-9616-459a-ba8d-33a5b5833e6d"
-  }
-]
+[{"title":"Welcome","text":"Add your own notes here!","id":"1fa8ed31-6354-46fc-ba3b-8378f10e97f0","dateTime":"16/05/21, 22:15:30"},{"title":"Update Me!","text":"Click on the pen in the navbar to edit.","id":"c4bae367-f9c5-4219-ad1e-20dd0b40bae7","dateTime":"20/05/21, 22:55:23"},{"title":"Delete me!","text":":)","id":"d1c3ed4b-878a-41dd-8247-c14ad7f05fc0","dateTime":"20/05/21, 22:54:54"},{"title":"gfg","text":"dfgf","id":"18c30444-7fef-4636-951b-9f5b3bb6e659"}]
