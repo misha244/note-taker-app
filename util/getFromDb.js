@@ -4,9 +4,9 @@ const path = require("path");
 const getFromDb = () => {
   try {
     const filePath = path.join(__dirname, "../db/db.json");
-    const data = fs.readFileSync(filePath, "utf-8");
+    const database = fs.readFileSync(filePath, "utf-8");
 
-    return JSON.parse(data);
+    return JSON.parse(database);
   } catch (err) {
     console.log(err);
   }
