@@ -1,8 +1,12 @@
-const getNotesData = (req, res) => {};
+const getNotes = (req, res) => {
+  res.json({ message: "hello" });
+};
 
-const saveNoteData = (req, res) => {};
+const saveNote = (req, res) => {
+  res.json({ message: "hello" });
+};
 
 module.exports = {
-  getNotesData,
-  saveNoteData,
+  getNotes,
+  saveNote,
 };

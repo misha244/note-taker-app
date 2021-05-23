@@ -1,10 +1,10 @@
 const { Router } = require("express");
 
-const { getNotesData, saveNoteData } = require("../controllers/apiControllers");
+const { getNotes, saveNote } = require("../controllers/apiControllers");
 
 const apiRouter = Router();
 
-apiRouter.get("/notes", getNotesData);
-apiRouter.post("/notes", saveNoteData);
+apiRouter.get("/notes", getNotes);
+apiRouter.post("/notes", saveNote);
 
 module.exports = apiRouter;
