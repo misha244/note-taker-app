@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/misha244/note-taker-app#read-me",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "uuid": "^8.3.2"
   },
