@@ -1,5 +1,7 @@
+// required package
 const path = require("path");
 
+// function to establish a static file path for all files
 const getStaticFilePath = (fileName) => {
   try {
     const filePath = path.join(__dirname, "../public", `/${fileName}.html`);

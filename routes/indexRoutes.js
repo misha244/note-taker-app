@@ -1,7 +1,8 @@
-// const htmlRouter = require("./htmlRoutes");
-// const apiRouter = require("./apiRoutes");
+// linking routes for easier export
+const htmlRouter = require("./htmlRoutes");
+const apiRouter = require("./apiRoutes");
 
-// module.exports = {
-//   htmlRouter,
-//   apiRouter,
-// };
+module.exports = {
+  htmlRouter,
+  apiRouter,
+};

@@ -1,5 +1,7 @@
+// required module
 const getStaticFilePath = require("../util/getStaticFile");
 
+// functions to render pages
 const renderNotesPage = (req, res) => {
   const filePath = getStaticFilePath("notes");
 

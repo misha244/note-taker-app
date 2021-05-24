@@ -1,6 +1,8 @@
+// required packages
 const fs = require("fs");
 const path = require("path");
 
+// function to read existing database
 const getFromDb = () => {
   try {
     const filePath = path.join(__dirname, "../db/db.json");

@@ -1,7 +1,9 @@
+// required modules & package
 const { v4: uuidv4 } = require("uuid");
 const getFromDb = require("../util/getFromDb");
 const writeToDb = require("../util/writeToDb");
 
+// functions to get existing notes and save new ones
 const getNotes = (req, res) => {
   const notes = getFromDb();
 
